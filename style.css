@@ -25,65 +25,65 @@ body {
 }
 
 .b1 {
-	animation: ani1 15s infinite; 
+	animation: ani1 50s infinite; 
 }
 
 .b2 {
-	animation: ani2 15s infinite; 
+	animation: ani2 50s infinite; 
 }
 
 .b3 {
-	animation: ani3 15s infinite; 
+	animation: ani3 50s infinite; 
 }
 
 .b4 {
-	animation: ani4 15s infinite; 
+	animation: ani4 50s infinite;
 }
 
 @keyframes ani1 {
 	0%{
 		opacity: 0;
 	}
-	12%{
+	3%{
 		opacity: 1;
 	}
-	25%{
+	6%{
 		opacity: 0;
 	}
 }
 
 @keyframes ani2 {
-	25%{
+	6%{
 		opacity: 0;
 	}
-	37%{
+	9%{
 		opacity: 1;
 	}
-	50%{
+	12%{
 		opacity: 0;
 	}
 }
 
 @keyframes ani3 {
-	50%{
+	12%{
 		opacity: 0;
 	}
-	65%{
+	15%{
 		opacity: 1;
 	}
-	75%{
+	18%{
 		opacity: 0;
 	}
 }
 
 @keyframes ani4 {
-	75%{
+	18%{
 		opacity: 0;
 	}
-	87%{
+	21%{
 		opacity: 1;
 	}
 	100%{
-		opacity: 0;
+		opacity: 1;
 	}
 }
