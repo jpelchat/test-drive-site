@@ -1,9 +1,7 @@
 body {
 	font-family: 'Poppins', Helvetica, sans-serif;
-	background: rgb(255,80,164);
-	background: linear-gradient(90deg, rgba(255,80,164,1) 6%, rgba(14,113,189,1) 100%);
+	background-image: url("bg-dark.png");
 	height: 100%;
-	overflow: hidden;
 }
 
 .banner-text {
@@ -16,7 +14,7 @@ body {
 }
 
 .box {
-	font-size: 50px;
+	font-size: 44px;
 	font-weight: bold;
 	opacity: 0;
 	position: absolute;
@@ -47,8 +45,8 @@ body {
 	3%{
 		opacity: 1;
 	}
-	6%{
-		opacity: 0;
+	100%{
+		opacity: 1;
 	}
 }
 
