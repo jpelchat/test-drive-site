@@ -2,6 +2,7 @@ body {
 	font-family: 'Poppins', Helvetica, sans-serif;
 	background-image: url("bg-dark.png");
 	height: 100%;
+	overflow: hidden;
 }
 
 .banner-text {
