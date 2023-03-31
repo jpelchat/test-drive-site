@@ -1,23 +1,13 @@
-# Space Invaders - Game Dev
+# April
 
-![alt text](cover.png)
+A landing page template.
 
-YouTube Link: https://youtu.be/qCBiKJbLcFI
+* [Getting started](#getting-started)
 
-In this exciting video we are going to make the classic game space invaders with JavaScript on a HTML canvas. Best of all we will code everything from scratch starting with an empty project.
+## Getting started
+* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
+* This template requires Node 14 to work. You can handle multiple node versions with [NVM](https://github.com/nvm-sh/nvm) 
+* Next, use your command line to enter your project directory.
+* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
 
-In this classic game we have our enemies at the top of the screen; they move side to side and down towards our player. At random the enemies will shoot bullets. At the bottom of the screen we have our spaceship which can shoot at the enemies. Unlike the original game our bullets shoot much faster, which also makes the game much more fun. The objective is to stay alive, avoid the enemies bullets and eliminate the enemies before they reach the bottom of the screen.
-
-## We will cover the following topics and more:
-
-- Game loop
-- Keyboard input
-- Moving our enemies
-- Collision detection
-- Shooting bullets
-- Game audio
-
-If you enjoy this tutorial please subscribe, like and share on YouTube.
-
-Try it here
-https://codingwith-adam.github.io/space-invaders/index.html
+You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
